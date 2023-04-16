@@ -1,4 +1,4 @@
-@mixin btn($bg-color){
+@mixin btn($bg-color:#e2e2e2){
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
@@ -7,6 +7,10 @@
     border-radius: $base-border-radius;
     background-color: $bg-color;
 }
+.btn{
+    @include btn;
+}
+
 
 @each $key, $val in $colors{
     .btn-#{$key}{
