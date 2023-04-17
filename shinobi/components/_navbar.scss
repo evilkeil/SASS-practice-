@@ -14,4 +14,16 @@
     .site-title{
         font-size: $font-size-lg;
     }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+     
+    }
+
+    .container{
+        @extend .flex-layout;
+        width: 40%;
+    }
 }
