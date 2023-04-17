@@ -1,6 +1,21 @@
 @use 'sass:math';
 
 $grid-columns:12;
+$grid-gap:(
+    "0":0,
+    "1":10px,
+    "2":20px,
+    "3":30px,
+);
+
+//gap classes
+
+@each $key,$value in $grid-gap{
+    .gap-#{$key}{
+        gap: $value;
+    }
+}
+
 
 @mixin gridClass($i){
     box-sizing: border-box;
