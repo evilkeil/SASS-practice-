@@ -10,7 +10,7 @@ $grid-gap:(
 
 $layout-values:flex-start,flex-end,center,space-between,space-around;
 
-
+$align-values:flex-start, flex-end, center, baseline, stretch, space-between, space-around, space-evenly;
 //gap classes
 
 @each $key,$value in $grid-gap{
@@ -92,5 +92,13 @@ $layout-values:flex-start,flex-end,center,space-between,space-around;
 @each $value in $layout-values{
     .justify-#{$value}{
         justify-content: $value;
+    }
+}
+
+//align items classes 
+
+@each $value in $align-values{
+    .align-#{$value}{
+        align-items: $value;
     }
 }
