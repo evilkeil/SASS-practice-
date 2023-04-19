@@ -386,6 +386,38 @@ img {
   justify-content: space-around;
 }
 
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.align-space-between {
+  align-items: space-between;
+}
+
+.align-space-around {
+  align-items: space-around;
+}
+
+.align-space-evenly {
+  align-items: space-evenly;
+}
+
 .text-primary {
   color: #326dee;
 }
@@ -2937,6 +2969,11 @@ img {
   text-decoration: underline;
 }
 
+.card > img {
+  width: 253px;
+  height: 242px;
+}
+
 .btn {
   text-decoration: none;
   cursor: pointer;
@@ -3504,6 +3541,8 @@ img {
 .navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
   padding: 0.75rem 1.5rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
 }
 .navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
@@ -3912,4 +3951,20 @@ img {
 
 .font-xxl {
   font-size: 3rem;
+}
+
+.pos-ab {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.pos-stk {
+  position: sticky;
 }
